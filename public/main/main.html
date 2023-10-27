@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Socket.IO chat</title>
-        <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <ul id="messages"></ul>
-    <form id="form" action="">
-      <input id="input" autocomplete="off" /><button>Send</button>
-            <select id="recipient">
-        <option value="">Select recipient</option>
-      </select>
-    </form>
-        <script src="/socket.io/socket.io.js"></script>
-        <script src="main.js"></script>
-  </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="message" autocomplete="off" /><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>

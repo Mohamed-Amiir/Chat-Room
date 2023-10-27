@@ -4,7 +4,6 @@ body {
   padding-bottom: 3rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-
 #form {
   background: rgba(0, 0, 0, 0.15);
   padding: 0.25rem;
@@ -36,14 +35,11 @@ body {
   outline: none;
   color: #fff;
 }
-
 #messages {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
-/* Style for the sender's message */
 .sender {
   background-color: #007BFF;
   color: #fff;
@@ -54,8 +50,6 @@ body {
   max-width: 70%;
   word-wrap: break-word;
 }
-
-/* Style for the receiver's message */
 .receiver {
   background-color: #28A745;
   color: #fff;
